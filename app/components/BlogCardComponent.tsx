@@ -21,12 +21,12 @@ const BlogCardComponent: React.FC<BlogCardProps> = ({
   return (
     <div className="shadow-subtle w-[340px] overflow-hidden rounded-lg bg-white">
       <Image
-        className="h-72"
         src={img}
         alt={title}
-        layout="responsive"
-        width={500}
-        height={300}
+        width={340}
+        height={288}
+        className="object-cover"
+        style={{ height: "288px", width: "100%" }}
       />
 
       <div className="flex flex-col gap-3 px-4 py-6" id="content">
