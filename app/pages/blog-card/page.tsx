@@ -1,5 +1,4 @@
 import BlogCardComponent from "@/app/components/BlogCardComponent";
-import React from "react";
 import BlogCardImage from "@/public/blog-card/spacejoy-YqFz7UMm8qE-unsplash.jpg";
 import { Noto_Sans } from "next/font/google";
 
